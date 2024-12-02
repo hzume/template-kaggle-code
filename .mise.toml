@@ -1,0 +1,9 @@
+[tasks.submit]
+run = "kaggle k push"
+dir = "./sub"
+
+[tasks.submit-status]
+run = "kaggle k status zume666/jane2024-sub"
+dir = "./sub"
+
+[tasks.push]
